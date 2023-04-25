@@ -6,11 +6,11 @@
 int main(void)
 {
 	char c = 'z';
-	while (c >= 'a') // check the condition at the beginning of the loop
+	while (c >= 'a') // loop from z to a
 	{
-		putchar(c);
-		c--;
+		putchar(c); // print the current character
+		c--; // decrement the character
 	}
-	putchar('\n');
+	putchar('\n'); // print a new line
 	return (0);
 }
