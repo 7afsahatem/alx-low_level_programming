@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-int putchar(int c); // this is the declaration
+int putchar(int c); /* this is the declaration */
 
 int main(void)
 {
