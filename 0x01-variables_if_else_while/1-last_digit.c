@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h> 
+#include <time.h>
 #include <stdio.h>
 /**
  * main-program entry point.
@@ -10,6 +10,7 @@ int main(void)
 	int n;
 	int ldigit;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	ldigit = n % 10;
 	if (ldigit > 5)
