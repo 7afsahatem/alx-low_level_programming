@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry poin
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'z';	
+	char c = 'z';
 	
 	while (c >= 'a') /* loop from z to a */
 	{
