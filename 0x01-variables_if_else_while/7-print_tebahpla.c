@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	int ch = 'z'; // initialize ch with the last lowercase letter
-	while (ch >= 'a') // loop until ch reaches the first lowercase letter
+	char c = 'z';
+	while (c >= 'a') // check the condition at the beginning of the loop
 	{
-		putchar(ch); // write ch to stdout
-		ch--; // decrement ch by one
+		putchar(c);
+		c--;
 	}
-	putchar('\n'); // write a new line to stdout
+	putchar('\n');
 	return (0);
 }
