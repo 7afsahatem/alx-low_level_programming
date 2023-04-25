@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	char c = 'z';
-	
+	char c = 'z';	
 	while (c >= 'a') /* loop from z to a */
 	{
 		putchar(c); /* print the current character */
