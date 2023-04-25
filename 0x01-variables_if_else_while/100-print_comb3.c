@@ -1,7 +1,5 @@
 #include <stdlib.h>
 
-int putchar(int c);
-
 int main(void)
 {
 	int i, j;
