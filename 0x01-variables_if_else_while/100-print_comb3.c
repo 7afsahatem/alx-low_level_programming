@@ -5,6 +5,7 @@ int putchar(int c); /* this is the declaration */
 int main(void)
 {
 	int i, j;
+	char *sep = ", "; /* this is a declaration and an initialization */
 
 	for (i = 0; i < 10; i++)
 	{
