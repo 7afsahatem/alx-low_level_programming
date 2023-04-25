@@ -7,6 +7,7 @@ int main(void)
 {
 	int i; /* declare an integer variable */
 	char c; /* declare a character variable */
+
 	for (i = 0; i < 10; i++) /* loop from 0 to 9 */
 	{
 		putchar(i + '0'); /* print the current digit */
