@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - prints all single digit numbers of base 10
+ * main - prints the alphabet in lowercase except q and e
  * Return: 0 if no error, non-zero value if error
  */
 int main(void)
 {
-	int n;
+	char c;
 
-	n = 0;
-	while (n < 10)
+	c = 'a';
+	while (c <= 'z')
 	{
-		printf("%d", n);
-		n++;
+		if (c != 'q' && c != 'e')
+			putchar(c);
+		c++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
