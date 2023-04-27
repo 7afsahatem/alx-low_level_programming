@@ -27,13 +27,17 @@ void print_times_table(int n)
 					_putchar((op % 10) + 48);
 				}
 				else if (op >= 10 && op <= 99)
+				{
 					_putchar(' ');
-				_putchar((op / 10) + 48);
-				_putchar((op % 10) + 48);
+					_putchar((op / 10) + 48);
+					_putchar((op % 10) + 48);
+				}
+				else
+					_putchar(op + '0');
 			}
-			else
-				 _putchar(op + '0');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
+
+
