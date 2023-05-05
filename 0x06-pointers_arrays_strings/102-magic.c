@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
- * main - prints a[2] = 98
- * Description: prints an output
- * Return: value
- */
 int main(void)
 {
 	int n;
