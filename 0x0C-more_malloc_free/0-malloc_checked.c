@@ -1,18 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
-/**
- * create_array - create array of size size and assign char c
- * @size: size of array
- * @c: char to assign
- * Description: create array of size size and assign char c
- * Return: pointer to array, NULL if fail
- */
-char *create_array(unsigned int size, char c)
+void *malloc_checked(unsigned int b)
 {
-	char *x = malloc(size);
-	if (size == 0 || x == 0)
-		return (0);
-	while (size--)
-		x[size] = c;
-	return (x);
+	void *p;
+	p = malloc(b); /* allocate memory of size b */
+	if (p == NULL) /* check if allocation failed */
+	{
+		fprintf(stderr, "Error: malloc failed\n");
+		exit(98); /* terminate process with status 98 */
+	}
+	return (p); /* return pointer to allocated memory */
 }
+
